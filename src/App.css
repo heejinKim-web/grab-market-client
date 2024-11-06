@@ -32,10 +32,9 @@ body,
 }
 
 #body {
-  height: 100vh;
+  height: auto;
   width: 1024px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 #footer {
