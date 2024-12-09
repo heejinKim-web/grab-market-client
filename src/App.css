@@ -32,9 +32,11 @@ body,
 }
 
 #body {
+  min-height: 100vh;
   height: auto;
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
+  width: 100%;
 }
 
 #footer {
@@ -78,5 +80,23 @@ body,
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product_card {
+    width: 160px !important;
+  }
+
+  #header {
+    padding: 0 8px;
+  }
+
+  #body {
+    padding: 0 8px;
+  }
+
+  .ant-carousel {
+    margin: 0 -8px;
   }
 }
